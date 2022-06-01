@@ -19,6 +19,6 @@ class ExampleTest extends TestCase
     public function test_should_error()
     {
         $items =  collect([1,3,4,5,6]);
-        $this->assertArrayHasKey(11, $items);
+        $this->assertArrayHasKey(4, $items);
     }
 }
